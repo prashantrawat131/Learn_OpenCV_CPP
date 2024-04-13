@@ -9,7 +9,7 @@ using namespace cv;
 int main()
 {
     // Read an image
-    Mat img_grayscale = imread("C:/Users/prash/Learning/c++/Opencv Vscode/images/my_pic.jpeg", 0);
+    Mat img_grayscale = imread("C:/Users/prash/Learning/c++/Learn_OpenCV_CPP/images/my_pic.jpeg", IMREAD_GRAYSCALE);
 
     // Display the image in a window
     imshow("grayscale image", img_grayscale);
@@ -21,6 +21,6 @@ int main()
     destroyAllWindows();
 
     // Write the image in the same directory
-    imwrite("C:/Users/prash/Learning/c++/Opencv Vscode/images/gray_scale.jpeg", img_grayscale);
+    imwrite("C:/Users/prash/Learning/c++/Learn_OpenCV_CPP/images/gray_scale.jpeg", img_grayscale);
     return 0;
 }

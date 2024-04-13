@@ -30,7 +30,7 @@ I followed [this](https://www.youtube.com/watch?v=CnXUTG9XYGI) video. I guess th
    add_executable(LearnOpenCv main.cpp)
    target_link_libraries(LearnOpenCv ${OpenCV_LIBS})
     ```
-> Note: I am using Cmake version 3.29.0. You can check the version of Cmake by running `cmake --version` in the terminal.
+> Note: I am using Cmake version 3.29.0. You can check the version of Cmake by running `cmake --version` in the terminal. Also the name of my cpp file is main.cpp.
 
 
 ## How to run the code:
