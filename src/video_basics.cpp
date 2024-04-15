@@ -37,7 +37,7 @@ int main()
         }
 
         // Waiting few ms for a keystroke between each frame
-        int key = waitKey(16.67); // 1000ms / 60fps = 16.67ms
+        int key = waitKey(16.67); // 1000ms / 24fps = 16.67ms
         if (key == 'q')
         {
             cout << "Quitting\n";
