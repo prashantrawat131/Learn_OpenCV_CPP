@@ -44,3 +44,7 @@ I followed [this](https://www.youtube.com/watch?v=CnXUTG9XYGI) video. I guess th
     ./Debug/LearnOpenCv.exe
     ```
     > Note: If you are using some image paths in the code then make sure the image paths are abosolute or relative to the /build/Degug/ directory. Otherwise you will get an error.
+
+
+## References:
+- [learnopencv.com](https://learnopencv.com/reading-and-writing-videos-using-opencv/)
