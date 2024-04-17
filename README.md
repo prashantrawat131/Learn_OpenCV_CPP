@@ -8,13 +8,14 @@ I followed [this](https://www.youtube.com/watch?v=CnXUTG9XYGI) video. I guess th
 
 1. Download OpenCV from [here](https://opencv.org/releases/)
 
-1. Create a envrioment variable `OpenCV_DIR` and set it to the path where you have installed OpenCV. For me it was `C:\opencv\build\`
+1. Create an envrioment variable `OpenCV_DIR` and set it to the path where you have installed OpenCV. For me it was `C:\opencv\build\`
 
 1. Add following to the `Path` variable in the system variables:
 
    - `C:\opencv\build\x64\vc16\bin`
    - `C:\opencv\build\x64\vc16\lib`
-     For me the above two are the paths in the openCV build directory. I am using openCV 4.8.0.
+
+> Note: For me the above two are the paths in the openCV build directory. I am using openCV 4.8.0.
 
 1. Restart VS Code. (If you have it open) - This is important.
 
