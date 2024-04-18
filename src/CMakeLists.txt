@@ -8,7 +8,7 @@ find_package(OpenCV REQUIRED)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(LearnOpenCv blur.cpp)
+add_executable(LearnOpenCv threshold.cpp)
 
 target_link_libraries(LearnOpenCv ${OpenCV_LIBS})
 
