@@ -8,7 +8,7 @@ find_package(OpenCV REQUIRED)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(LearnOpenCv threshold.cpp)
+add_executable(LearnOpenCv blob_detection.cpp)
 
 target_link_libraries(LearnOpenCv ${OpenCV_LIBS})
 
