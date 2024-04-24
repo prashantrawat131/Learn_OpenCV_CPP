@@ -8,7 +8,7 @@ find_package(OpenCV REQUIRED)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(LearnOpenCv test.cpp)
+add_executable(LearnOpenCv trackbar.cpp)
 
 target_link_libraries(LearnOpenCv ${OpenCV_LIBS})
 
