@@ -8,7 +8,7 @@ find_package(OpenCV REQUIRED)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(LearnOpenCv contour.cpp)
+add_executable(LearnOpenCv background_estimation.cpp)
 
 target_link_libraries(LearnOpenCv ${OpenCV_LIBS})
 
